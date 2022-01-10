@@ -1,7 +1,8 @@
+import React,{ useEffect } from "react";
 import "./App.css";
-import { useEffect } from "react";
+
 import { useWeb3React } from "@web3-react/core";
-import { injected } from "./wallet/Connector";
+import { injected } from "./wallet/connector";
 function App() {
   const { active, account, library, activate,deactivate } = useWeb3React();
 
