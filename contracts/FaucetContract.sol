@@ -12,10 +12,10 @@ contract Faucet is Owned, Logger, IFaucet {
         owner = msg.sender;
     }
 
-    modifier onlyOwner() override {
-        require(msg.sender == owner, "Only owner can call this function");
-        _;
-    }
+    // modifier onlyOwner() override {
+    //     require(msg.sender == owner, "Only owner can call this function");
+    //     _;
+    // }
 
     modifier limitWithdraw(uint256 withdrawAmount) {
         require(
