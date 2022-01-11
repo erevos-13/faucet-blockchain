@@ -4,12 +4,16 @@ import "./App.css";
 import { useWeb3React } from "@web3-react/core";
 import { injected } from "./wallet/connector";
 import detectEthereumProvider from "@metamask/detect-provider";
+import { loadContract } from "./utils/loadContract";
 function App() {
   const { active, account, library, activate, deactivate } = useWeb3React();
   const [accountEth, setAccountEth] = useState(null);
-  console.log({ active, account, library, activate, deactivate });
+  const [balance, setBalance] = useState(null);
+  const [contract, setContract] = useState({contract: null});
+
   async function connect() {
     try {
+      console.log('connect', { active, account, library, activate, deactivate })
       await activate(injected);
     } catch (ex) {
       console.log(ex);
@@ -17,7 +21,6 @@ function App() {
   }
 
   useEffect(() => {
-    const provider = await detectEthereumProvider();
     const loadProvider = () => {
       console.log(window.web3);
       console.log(window.ethereum);
@@ -25,31 +28,26 @@ function App() {
         connect();
       }
     };
-    if (provider) {
-      console.log("Ethereum successfully detected!");
-
-      loadProvider();
-    } else {
-      // if the provider is not detected, detectEthereumProvider resolves to null
-      console.error("Please install MetaMask!", error);
-    }
+    loadProvider();
   }, []);
 
   useEffect(() => {
     const getAccounts = async () => {
       const accounts = await library.eth.getAccounts();
+      const contract = await loadContract("Faucet");
+      setContract({contract});
       setAccountEth(accounts[0]);
     };
-    if (library) {
+    if (library && active) {
       getAccounts();
     }
-  }, [library]);
+  }, [library, active]);
 
   return (
     <div className="App">
       <div className="flex flex-row justify-start">
-        <h1>Account: {accountEth ? accountEth : "not Connect"}</h1>
-        <h1 className="font-semibold">Current Balance:</h1>
+        <h1>Account: {active ? account : "not Connect"}</h1>
+        <h1 className="font-semibold">Current Balance: {balance} </h1>
       </div>
       <div className="flex flex-row justify-start">
         <button onClick={connect}>Enable Ethereum</button>
