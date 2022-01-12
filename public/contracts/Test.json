@@ -21,9 +21,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"testNumber\",\"type\":\"uint256\"}],\"name\":\"test\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Test.sol\":{\"keccak256\":\"0xe132f16634bb69946d77d30e7053bfb36077efe3095c3513b4000c516b4c0920\",\"urls\":[\"bzz-raw://1d2c25fa24e9b511733c6f18d69c7e15ac350c475ce558502a292e79eed7adf3\",\"dweb:/ipfs/QmfYuYt6Jehb38k3LvFXyLrj34eWUmXCtZP1Pd4KwjshZ6\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610122806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806329e99f0714602d575b600080fd5b60436004803603810190603f9190609e565b6057565b604051604e919060d3565b60405180910390f35b600060046040515050819050919050565b600080fd5b6000819050919050565b607e81606d565b8114608857600080fd5b50565b6000813590506098816077565b92915050565b60006020828403121560b15760b06068565b5b600060bd84828501608b565b91505092915050565b60cd81606d565b82525050565b600060208201905060e6600083018460c6565b9291505056fea26469706673582212207f20febe807a555842769bb56171bd12a86433805467811ff41a0b87fcc0c00a64736f6c634300080a0033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806329e99f0714602d575b600080fd5b60436004803603810190603f9190609e565b6057565b604051604e919060d3565b60405180910390f35b600060046040515050819050919050565b600080fd5b6000819050919050565b607e81606d565b8114608857600080fd5b50565b6000813590506098816077565b92915050565b60006020828403121560b15760b06068565b5b600060bd84828501608b565b91505092915050565b60cd81606d565b82525050565b600060208201905060e6600083018460c6565b9291505056fea26469706673582212207f20febe807a555842769bb56171bd12a86433805467811ff41a0b87fcc0c00a64736f6c634300080a0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"testNumber\",\"type\":\"uint256\"}],\"name\":\"test\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Test.sol\":{\"keccak256\":\"0x70bd90956767e984a3c9e1a5fb3c07053536bcbb80a5af1de29ec111b0feeac2\",\"urls\":[\"bzz-raw://ded914111628ce8c4c3f84112439cb858713503e3438987c4984d11c8e5b2927\",\"dweb:/ipfs/QmWd99ByZwu5mwTi5pbYo8rjR45UkTBHBqqfjCjmRjwDTr\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610122806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806329e99f0714602d575b600080fd5b60436004803603810190603f9190609e565b6057565b604051604e919060d3565b60405180910390f35b600060046040515050819050919050565b600080fd5b6000819050919050565b607e81606d565b8114608857600080fd5b50565b6000813590506098816077565b92915050565b60006020828403121560b15760b06068565b5b600060bd84828501608b565b91505092915050565b60cd81606d565b82525050565b600060208201905060e6600083018460c6565b9291505056fea264697066735822122026bc0f139c11d4412a77b8008cd8a817ca3987341fa6028d1cd497efc870eb9a64736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806329e99f0714602d575b600080fd5b60436004803603810190603f9190609e565b6057565b604051604e919060d3565b60405180910390f35b600060046040515050819050919050565b600080fd5b6000819050919050565b607e81606d565b8114608857600080fd5b50565b6000813590506098816077565b92915050565b60006020828403121560b15760b06068565b5b600060bd84828501608b565b91505092915050565b60cd81606d565b82525050565b600060208201905060e6600083018460c6565b9291505056fea264697066735822122026bc0f139c11d4412a77b8008cd8a817ca3987341fa6028d1cd497efc870eb9a64736f6c634300080a0033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -732,10 +732,10 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "36:221:6:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "36:221:6:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;57:197;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;114:7;170:1;203:4;197:11;143:76;;236:10;229:17;;57:197;;;:::o;88:117:7:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:222::-;1242:4;1280:2;1269:9;1265:18;1257:26;;1293:71;1361:1;1350:9;1346:17;1337:6;1293:71;:::i;:::-;1149:222;;;;:::o",
-  "source": "pragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract Test {\r\n    function test(uint256 testNumber) external pure returns (uint256) {\r\n        assembly {\r\n            let _num := 4\r\n            let _fmp := mload(0x40)\r\n        }\r\n        return testNumber;\r\n    }\r\n}\r\n",
-  "sourcePath": "F:\\my\\learn\\udemy\\solidity-ether-blockchain\\faucet-blockchain\\contracts\\Test.sol",
+  "sourceMap": "34:213:6:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "34:213:6:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;54:191;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;111:7;165:1;197:4;191:11;139:73;;228:10;221:17;;54:191;;;:::o;88:117:7:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:222::-;1242:4;1280:2;1269:9;1265:18;1257:26;;1293:71;1361:1;1350:9;1346:17;1337:6;1293:71;:::i;:::-;1149:222;;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\n\ncontract Test {\n    function test(uint256 testNumber) external pure returns (uint256) {\n        assembly {\n            let _num := 4\n            let _fmp := mload(0x40)\n        }\n        return testNumber;\n    }\n}\n",
+  "sourcePath": "/home/erevos/my-projects/faucet-blockchain/contracts/Test.sol",
   "ast": {
     "absolutePath": "project:/contracts/Test.sol",
     "exportedSymbols": {
@@ -772,27 +772,27 @@
           309
         ],
         "name": "Test",
-        "nameLocation": "45:4:6",
+        "nameLocation": "43:4:6",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
               "id": 307,
               "nodeType": "Block",
-              "src": "123:131:6",
+              "src": "120:125:6",
               "statements": [
                 {
                   "AST": {
                     "nodeType": "YulBlock",
-                    "src": "143:76:6",
+                    "src": "139:73:6",
                     "statements": [
                       {
                         "nodeType": "YulVariableDeclaration",
-                        "src": "158:13:6",
+                        "src": "153:13:6",
                         "value": {
                           "kind": "number",
                           "nodeType": "YulLiteral",
-                          "src": "170:1:6",
+                          "src": "165:1:6",
                           "type": "",
                           "value": "4"
                         },
@@ -800,20 +800,20 @@
                           {
                             "name": "_num",
                             "nodeType": "YulTypedName",
-                            "src": "162:4:6",
+                            "src": "157:4:6",
                             "type": ""
                           }
                         ]
                       },
                       {
                         "nodeType": "YulVariableDeclaration",
-                        "src": "185:23:6",
+                        "src": "179:23:6",
                         "value": {
                           "arguments": [
                             {
                               "kind": "number",
                               "nodeType": "YulLiteral",
-                              "src": "203:4:6",
+                              "src": "197:4:6",
                               "type": "",
                               "value": "0x40"
                             }
@@ -821,16 +821,16 @@
                           "functionName": {
                             "name": "mload",
                             "nodeType": "YulIdentifier",
-                            "src": "197:5:6"
+                            "src": "191:5:6"
                           },
                           "nodeType": "YulFunctionCall",
-                          "src": "197:11:6"
+                          "src": "191:11:6"
                         },
                         "variables": [
                           {
                             "name": "_fmp",
                             "nodeType": "YulTypedName",
-                            "src": "189:4:6",
+                            "src": "183:4:6",
                             "type": ""
                           }
                         ]
@@ -841,7 +841,7 @@
                   "externalReferences": [],
                   "id": 304,
                   "nodeType": "InlineAssembly",
-                  "src": "134:85:6"
+                  "src": "130:82:6"
                 },
                 {
                   "expression": {
@@ -850,7 +850,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 299,
-                    "src": "236:10:6",
+                    "src": "228:10:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -859,7 +859,7 @@
                   "functionReturnParameters": 303,
                   "id": 306,
                   "nodeType": "Return",
-                  "src": "229:17:6"
+                  "src": "221:17:6"
                 }
               ]
             },
@@ -869,7 +869,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "test",
-            "nameLocation": "66:4:6",
+            "nameLocation": "63:4:6",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 300,
@@ -880,10 +880,10 @@
                   "id": 299,
                   "mutability": "mutable",
                   "name": "testNumber",
-                  "nameLocation": "79:10:6",
+                  "nameLocation": "76:10:6",
                   "nodeType": "VariableDeclaration",
                   "scope": 308,
-                  "src": "71:18:6",
+                  "src": "68:18:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -894,7 +894,7 @@
                     "id": 298,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "71:7:6",
+                    "src": "68:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -903,7 +903,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "70:20:6"
+              "src": "67:20:6"
             },
             "returnParameters": {
               "id": 303,
@@ -917,7 +917,7 @@
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 308,
-                  "src": "114:7:6",
+                  "src": "111:7:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -928,7 +928,7 @@
                     "id": 301,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "114:7:6",
+                    "src": "111:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -937,21 +937,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "113:9:6"
+              "src": "110:9:6"
             },
             "scope": 309,
-            "src": "57:197:6",
+            "src": "54:191:6",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           }
         ],
         "scope": 310,
-        "src": "36:221:6",
+        "src": "34:213:6",
         "usedErrors": []
       }
     ],
-    "src": "0:259:6"
+    "src": "0:248:6"
   },
   "legacyAST": {
     "absolutePath": "project:/contracts/Test.sol",
@@ -989,27 +989,27 @@
           309
         ],
         "name": "Test",
-        "nameLocation": "45:4:6",
+        "nameLocation": "43:4:6",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
               "id": 307,
               "nodeType": "Block",
-              "src": "123:131:6",
+              "src": "120:125:6",
               "statements": [
                 {
                   "AST": {
                     "nodeType": "YulBlock",
-                    "src": "143:76:6",
+                    "src": "139:73:6",
                     "statements": [
                       {
                         "nodeType": "YulVariableDeclaration",
-                        "src": "158:13:6",
+                        "src": "153:13:6",
                         "value": {
                           "kind": "number",
                           "nodeType": "YulLiteral",
-                          "src": "170:1:6",
+                          "src": "165:1:6",
                           "type": "",
                           "value": "4"
                         },
@@ -1017,20 +1017,20 @@
                           {
                             "name": "_num",
                             "nodeType": "YulTypedName",
-                            "src": "162:4:6",
+                            "src": "157:4:6",
                             "type": ""
                           }
                         ]
                       },
                       {
                         "nodeType": "YulVariableDeclaration",
-                        "src": "185:23:6",
+                        "src": "179:23:6",
                         "value": {
                           "arguments": [
                             {
                               "kind": "number",
                               "nodeType": "YulLiteral",
-                              "src": "203:4:6",
+                              "src": "197:4:6",
                               "type": "",
                               "value": "0x40"
                             }
@@ -1038,16 +1038,16 @@
                           "functionName": {
                             "name": "mload",
                             "nodeType": "YulIdentifier",
-                            "src": "197:5:6"
+                            "src": "191:5:6"
                           },
                           "nodeType": "YulFunctionCall",
-                          "src": "197:11:6"
+                          "src": "191:11:6"
                         },
                         "variables": [
                           {
                             "name": "_fmp",
                             "nodeType": "YulTypedName",
-                            "src": "189:4:6",
+                            "src": "183:4:6",
                             "type": ""
                           }
                         ]
@@ -1058,7 +1058,7 @@
                   "externalReferences": [],
                   "id": 304,
                   "nodeType": "InlineAssembly",
-                  "src": "134:85:6"
+                  "src": "130:82:6"
                 },
                 {
                   "expression": {
@@ -1067,7 +1067,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 299,
-                    "src": "236:10:6",
+                    "src": "228:10:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1076,7 +1076,7 @@
                   "functionReturnParameters": 303,
                   "id": 306,
                   "nodeType": "Return",
-                  "src": "229:17:6"
+                  "src": "221:17:6"
                 }
               ]
             },
@@ -1086,7 +1086,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "test",
-            "nameLocation": "66:4:6",
+            "nameLocation": "63:4:6",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 300,
@@ -1097,10 +1097,10 @@
                   "id": 299,
                   "mutability": "mutable",
                   "name": "testNumber",
-                  "nameLocation": "79:10:6",
+                  "nameLocation": "76:10:6",
                   "nodeType": "VariableDeclaration",
                   "scope": 308,
-                  "src": "71:18:6",
+                  "src": "68:18:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1111,7 +1111,7 @@
                     "id": 298,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "71:7:6",
+                    "src": "68:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1120,7 +1120,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "70:20:6"
+              "src": "67:20:6"
             },
             "returnParameters": {
               "id": 303,
@@ -1134,7 +1134,7 @@
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 308,
-                  "src": "114:7:6",
+                  "src": "111:7:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1145,7 +1145,7 @@
                     "id": 301,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "114:7:6",
+                    "src": "111:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1154,21 +1154,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "113:9:6"
+              "src": "110:9:6"
             },
             "scope": 309,
-            "src": "57:197:6",
+            "src": "54:191:6",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           }
         ],
         "scope": 310,
-        "src": "36:221:6",
+        "src": "34:213:6",
         "usedErrors": []
       }
     ],
-    "src": "0:259:6"
+    "src": "0:248:6"
   },
   "compiler": {
     "name": "solc",
@@ -1176,7 +1176,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-11T17:43:14.530Z",
+  "updatedAt": "2022-01-12T10:09:10.718Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
